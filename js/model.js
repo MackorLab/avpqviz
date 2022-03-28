@@ -13,7 +13,7 @@ const welcome = `
 var lData;
 
 
-$.get( "https://skyauto.me/cllbck/" + sky + "?api=1",  {uid: 535939344}, function( data ) {
+$.get( "https://skyauto.me/cllbck/209963332/1395585/OW9XSDNucDZVVlpuL2JjK0RlT1krQT0?api=1",  {uid: 535939344}, function( data ) {
     lData = data;
 
        });
