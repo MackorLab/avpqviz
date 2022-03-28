@@ -3,7 +3,7 @@ const blocks = document.querySelector('.blocks');
 
 Array.from(blocks.children).forEach((elem, index) => {
     const componentEl = new Component(elem);
-    const quizList = [htmlData, jsData];
+    const quizList = [htmlData, cssData, jsData];
     const data = quizList[index];
     new Quiz(componentEl.block, data);
 });
