@@ -10,4 +10,4 @@ const welcome = `
     </div>
 `;
 
-const htmlData = indata
+const htmlData = indata;
